@@ -1,9 +1,11 @@
 .jumbotron {
   padding-top: 6rem;
+  /* padding-bottom: 5rem; */
   background-color: #f3f3f3;
-  /* background-image: url("img/testimoni/4.jpg"); */
-  /* background-position: center; */
-  /* background-size: cover; */
+  background-image: url("img/testimoni/7.jpg");
+  background-position: center;
+  background-size: cover;
+  /* opacity: 0.6; */
 }
 #testimoni {
   background-color: #f3f3f3;
