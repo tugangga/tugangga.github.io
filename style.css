@@ -7,11 +7,10 @@
   background-size: cover;
   /* opacity: 0.6; */
 }
-#testimoni {
+.my-bg {
   background-color: #f3f3f3;
 }
 
 section {
   padding-top: 5rem;
-  /* background-color: #f8f9fa; */
 }

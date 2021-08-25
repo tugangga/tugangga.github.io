@@ -7,6 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
@@ -35,10 +37,17 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <!-- <img src="img/gambar.jpg" alt="gambar" width="200" class="rounded-circle img-thumbnail" /> -->
+      <img src="img/gambar.jpg" alt="gambar" width="200" class="rounded-circle img-thumbnail" data-aos="fade-down" data-aos-duration="1000" />
 
-      <h1 class="display-4">VCO Bali Dalem</h1>
-      <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi fugit placeat provident est excepturi praesentium unde nemo perspiciatis nam nesciunt!</p>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <h1 class="display-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">VCO Bali Dalem</h1>
+          <p class="lead" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sint nulla quas exercitationem assumenda. Minima animi incidunt unde repellendus quisquam labore, temporibus quidem, nulla harum sunt recusandae officia ducimus
+            autem!
+          </p>
+        </div>
+      </div>
 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
@@ -52,7 +61,7 @@
 
     <!-- About -->
     <section id="about">
-      <div class="container">
+      <div class="container" data-aos="fade-down" data-aos-duration="1000">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>About Us</h2>
@@ -68,7 +77,6 @@
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <!-- fill="#e2edff" -->
         <path
           fill="#f3f3f3"
           fill-opacity="1"
@@ -79,16 +87,16 @@
     <!-- Akhir About -->
 
     <!-- Testimoni -->
-    <section id="testimoni">
+    <section id="testimoni" class="my-bg">
       <div class="container">
         <div class="row text-center mb-3">
-          <div class="col">
+          <div class="col" data-aos="fade-down" data-aos-duration="1000">
             <h2>Testimoni</h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card shadow-sm">
+            <div class="card shadow-sm" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="50">
               <img src="img/testimoni/1.jpg" class="card-img-top" alt="VCO#1" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -96,7 +104,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card shadow-sm" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="100">
               <img src="img/testimoni/2.jpg" class="card-img-top" alt="VCO#2" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -104,7 +112,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card shadow-sm" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="150">
               <img src="img/testimoni/3.jpg" class="card-img-top" alt="VCO#3" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -112,7 +120,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card shadow-sm" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="200">
               <img src="img/testimoni/4.jpg" class="card-img-top" alt="VCO#4" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -120,7 +128,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card shadow-sm" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="250">
               <img src="img/testimoni/5.jpg" class="card-img-top" alt="VCO#5" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -139,20 +147,48 @@
     </section>
     <!-- Akhir testimoni -->
 
-    <!-- Contact -->
-    <section id="contact">
-      <div class="container">
+    <!-- Social Media  -->
+    <section id="sosmed">
+      <div class="container" data-aos="fade-down" data-aos-duration="1000">
         <div class="row text-center mb-4">
+          <div class="col">
+            <h2>Social Media</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ex tenetur illo sequi adipisci harum itaque! Alias quam laborum, sapiente inventore doloremque velit error aperiam reprehenderit ratione eveniet deleniti!
+              Minima!
+            </p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#f3f3f3"
+          fill-opacity="1"
+          d="M0,224L24,208C48,192,96,160,144,165.3C192,171,240,213,288,224C336,235,384,213,432,202.7C480,192,528,192,576,192C624,192,672,192,720,181.3C768,171,816,149,864,122.7C912,96,960,64,1008,80C1056,96,1104,160,1152,176C1200,192,1248,160,1296,160C1344,160,1392,192,1416,208L1440,224L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!-- Akhir Social Media  -->
+
+    <!-- Contact -->
+    <section id="contact" class="my-bg">
+      <div class="container">
+        <div class="row text-center mb-4" data-aos="fade-down" data-aos-duration="1000">
           <div class="col">
             <h2>Contact Us</h2>
           </div>
         </div>
 
         <div class="row justify-content-center">
-          <div class="col-md-4 pb-5">
+          <div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
             <div class="card text-white bg-dark mb-3">
               <div class="card-body">
-                <h5 class="card-title">Contact Us</h5>
+                <h5 class="card-title">VCO Bali Dalem</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci molestias in ea ad nihil rem placeat hic neque illo temporibus!</p>
               </div>
             </div>
@@ -165,21 +201,32 @@
             </ul>
           </div>
 
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+            <div class="card text-white bg-dark mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Send Us a Message</h5>
+              </div>
+            </div>
+
             <form>
               <div class="mb-3">
-                <label for="nama" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="nama" name="nama" aria-describedby="nama" />
+                <label for="nama" class="form-label">Name</label>
+                <input type="text" class="form-control" id="nama" name="nama" aria-describedby="nama" required />
               </div>
 
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" name="email" aria-describedby="email" />
+                <input type="email" class="form-control" id="email" name="email" aria-describedby="email" required />
               </div>
 
               <div class="mb-3">
-                <label for="pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" name="pesan" rows="3"></textarea>
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="text" class="form-control" id="phone" name="phone" aria-describedby="phone" required onkeypress="if ( isNaN( String.fromCharCode(event.keyCode) )) return false;" />
+              </div>
+
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Message</label>
+                <textarea class="form-control" id="pesan" name="pesan" rows="3" required></textarea>
               </div>
 
               <button type="submit" class="btn btn-primary">Kirim Pesan</button>
@@ -188,7 +235,6 @@
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <!-- fill="#0d6efd" -->
         <path
           fill="#212529"
           fill-opacity="1"
@@ -204,6 +250,17 @@
     </footer>
     <!-- Akhir Footer -->
 
+    <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: false,
+      });
+    </script>
+
+    <!-- my javascript -->
   </body>
 </html>
